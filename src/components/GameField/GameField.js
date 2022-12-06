@@ -26,11 +26,7 @@ const GameField = ({user}) => {
     }
 
     const pauseGame = () => {
-        if(isPaused){
-            setIsPaused(false)
-        }else{
-            setIsPaused(true)
-        }
+        setIsPaused(paused => !paused)
     }
 
     const endGame = () => {
