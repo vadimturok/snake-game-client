@@ -1,0 +1,21 @@
+.recordWrapper{
+    margin: 20px 0;
+}
+.recordTitle{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.recordList{
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.recordItem{
+    font-size: 20px;
+    margin-bottom: 3px;
+}
+.number{
+    padding: 5px 10px;
+    border-radius: 50%;
+}

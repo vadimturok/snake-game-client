@@ -1,0 +1,46 @@
+.inputWrapper{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.textHelp{
+    text-align: center;
+}
+
+.input{
+    padding: 8px 5px;
+    outline: none;
+    border-radius: 8px;
+    border: 1px solid gray;
+}
+
+.submitButton{
+    border: none;
+    outline: none;
+    background-color: cornflowerblue;
+    color: white;
+    padding: 8px 5px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.submitButton:hover{
+    background-color: #5a88da;
+}
+.submitButton:disabled{
+    background-color: rgba(100, 149, 237, 0.5);
+    cursor: unset;
+}
+
+.error{
+    color: red;
+    text-align: center;
+    font-size: 15px;
+}

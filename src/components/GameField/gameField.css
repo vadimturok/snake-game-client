@@ -1,0 +1,60 @@
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    outline: none;
+}
+.board{
+    text-align: center;
+}
+.userPoints{
+    margin: 20px 0;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.startBtn{
+    background-color: #1A9455;
+}
+
+.startBtn:disabled{
+    background-color: #A7F1A3;
+    cursor: unset;
+}
+
+.pauseBtn{
+    background-color: #DED828;
+}
+
+.pauseBtn:disabled{
+    background-color: #F6F4A1;
+}
+
+.ruleGame{
+    color: white;
+    font-weight: 600;
+    outline: none;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 150px;
+    font-size: 16px;
+}
+.ruleGame:disabled{
+    cursor: unset;
+}
+
+.canvas{
+    background-color: antiquewhite;
+    border-radius: 20px;
+}
+
+.userRecord{
+    margin-top: 20px;
+}
